@@ -4,7 +4,7 @@ $(".theTarget").skippr({       //オプションを指定してskipprの実行
   transition:'fade',           //スライドショーの変化(fadeかslideか)
   speed:1000,                  //変化にかかる時間(単位：ミリ秒)
   easing:'easeOutQuart',       //easingの種類 easing=エフェクトの動きを加速/減速させるための関数
-  navType:'block',             //ナビゲーションの形(block=長細い棒　かbubble=丸い転々か)
+  navType:'bubble',             //ナビゲーションの形(block=長細い棒　かbubble=丸い転々か)
   childrenElementType:'div',   //子要素の種類(divかimgか)
   arrows:true,                 //ナビゲーション矢印の表示(trueで表示される)
   autoPlay:false,              //スライドショーの自動再生(falseで自動再生なし)
